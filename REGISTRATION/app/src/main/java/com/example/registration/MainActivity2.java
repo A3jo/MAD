@@ -33,7 +33,7 @@ public class MainActivity2 extends AppCompatActivity {
 
         String firstName = sharedPreferences.getString("FirstName", "Not Available");
         String lastName = sharedPreferences.getString("LastName", "Not Available");
-        String email = sharedPreferences.getString("Email", "Not Available");
+        String email = sharedPreferences.getString("E00mail", "Not Available");
         String phone = sharedPreferences.getString("Phone", "Not Available");
         String password = sharedPreferences.getString("Password", "Not Available");
         String dob = sharedPreferences.getString("DOB", "Not Available");
